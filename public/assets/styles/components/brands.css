@@ -1,0 +1,16 @@
+.brands {
+    background: black;
+    padding: 40px 0;
+}
+
+.container {}
+
+.brands__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {}
+
+.brand__image {}
