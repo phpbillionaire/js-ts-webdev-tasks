@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+html,
+body {
+    font-family: "DM Sans", sans-serif;
+    color: #1E0E62;
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1190px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.products__inner {
+    margin-top: 30px;
+    display: flex;
+    gap: 100px;
+}
+
+.category__list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 300px;
+}
+
+.category__list-item {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #15143966;
+    user-select: none;
+
+}
+
+.category-active {
+    color: #1E0E62;
+}
+
+.products {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.header__amount {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #15143966;
+    text-transform: uppercase;
+}
+
+.header__sort {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #15143966;
+}
+
+span {
+    color: #1E0E62;
+}
+
+.cards__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    max-width: 270px;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card__title {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.card__image {
+    border-radius: 10px;
+}
+
+.card__price {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #482BE7;
+}
+
+.card__button {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 22px;
+    border: 2px solid #EBEAED;
+    padding: 5px 0;
+    width: 120px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
