@@ -1,13 +1,11 @@
 import Navigo from "navigo";
 
 const router = new Navigo("/");
+const app = document.getElementById("app");
 
 router
   .on("/", () => {
-    document.body.textContent = "Home";
-  })
-  .on("/hello", () => {
-    document.body.textContent = "hello"
+
   })
   .resolve()
 
