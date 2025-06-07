@@ -3,6 +3,9 @@
 
 @import 'components/banner.css';
 @import 'components/header.css';
+@import 'components/hero.css';
+@import 'components/brands.css';
+
 
 html,
 body {
